@@ -6,15 +6,6 @@ pipeline {
                 python3 script.py 
             }
         }
-        stage('Test') { 
-            steps {
-                // 
-            }
-        }
-        stage('Deploy') { 
-            steps {
-                // 
-            }
-        }
+        
     }
 }
