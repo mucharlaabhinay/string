@@ -1,6 +1,6 @@
 try:
 
-        file_read = open("copy_file", "r")
+        file_read = open("log.txt", "r")
         text = input("Enter the String: ")
 
         lines = file_read.readlines()
